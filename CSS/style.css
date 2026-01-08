@@ -1,0 +1,43 @@
+body {
+    padding-left: 136px;
+    padding-right: 136px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35.5px 0;
+}
+
+.nav-logo {
+    width: 139px;
+    height: 60px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    gap: 32px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}

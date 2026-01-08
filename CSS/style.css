@@ -1,13 +1,8 @@
-body {
-    padding-left: 136px;
-    padding-right: 136px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35.5px 0;
+    padding: 16px 136px;
 }
 
 .nav-logo {
@@ -40,4 +35,83 @@ nav {
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
+}
+
+.hero {
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 154.5px;
+    padding-bottom: 154.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.live {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.heading-highlight {
+    color: #30B868;
+    font-weight: 700;
+    font-size: 72px;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 16px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.hero-button-1 {
+    padding: 10px 15px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-button-2 {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

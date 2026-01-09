@@ -178,6 +178,10 @@ nav {
     margin-top: 40px;
 }
 
+.card:hover {
+    box-shadow: 5px 10px 75px rgba(0, 0, 0, 0.1);
+}
+
 .card {
     display: flex;
     flex-direction: column;

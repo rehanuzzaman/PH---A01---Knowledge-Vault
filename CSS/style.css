@@ -203,6 +203,10 @@ nav {
     border-radius: 100%;
 }
 
+.card:hover .icon {
+    background-color: #ff0000;
+}
+
 .card-description {
     font-size: 14px;
     font-weight: 400;
@@ -250,6 +254,11 @@ nav {
     align-items: center;
     gap: 10px;
     margin-bottom: -15px;
+}
+
+.list :hover {
+    cursor: pointer;
+    color: #30B868;
 }
 
 .early-access {

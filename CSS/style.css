@@ -174,6 +174,7 @@ nav {
 .cards {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 32px;
     margin-top: 40px;
 }
@@ -205,6 +206,14 @@ nav {
 
 .card:hover .icon {
     background-color: #ff0000;
+}
+
+.card h2 {
+    font-weight: 700;
+    color: #001931;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .card-description {
@@ -262,7 +271,7 @@ nav {
 }
 
 .early-access {
-    background-color: #f3f2ea;
+    background-color: rgba(247, 246, 242, 1);
     padding: 75px 120px;
     display: flex;
     text-align: center;
@@ -293,6 +302,8 @@ nav {
     font-weight: 500;
     box-shadow: 0px 4px 12px rgba(48, 184, 104, 0.5);
     margin: 0;
+    display: flex;
+    gap: 12px;
 }
 
 .early-access-button:hover {

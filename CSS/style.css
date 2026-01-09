@@ -295,6 +295,11 @@ nav {
     margin: 0;
 }
 
+.early-access-button:hover {
+    background-color:#30B868;
+    box-shadow: 0px 4px 25px rgba(48, 184, 104, 0.5);
+}
+
 .early-access-p {
     font-size: 16px;
     font-weight: 400;
@@ -306,7 +311,10 @@ footer {
     align-items: center;
     padding: 16px 120px;
     background-color: #001931;
-    padding: 120px 136px;
+    padding-top: 75px;
+    padding-bottom: 16px;
+    padding-left: 136px;
+    padding-right: 136px;
 }
 
 .footer-up {
@@ -330,7 +338,7 @@ footer {
 hr {
     border: none;
     border-top: 1px solid #14334e;
-    margin: 16px 0;
+    margin-top: 100px;
 }
 
 .copyright {
@@ -340,4 +348,5 @@ hr {
     text-align: center;
     margin: 0;
     padding-bottom: 16px;
+    margin-top: 20px;
 }
